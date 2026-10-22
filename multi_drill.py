@@ -51,3 +51,4 @@ with open(file_path, "w") as file: # open(), tells the computer to open the file
 
 print(f"\nSuccess! File created at: {file_path}")
 print(gcode_lines)
+print("generating")
