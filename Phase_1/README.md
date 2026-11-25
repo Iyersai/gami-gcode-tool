@@ -25,6 +25,10 @@ python plan_reader.py Example_V1   # writes Example_V1/plan_ops.json
 streamlit run app.py               # opens the app in the browser
 ```
 
+On Windows you can also double-click **`run_app.bat`** instead of typing `streamlit run app.py`
+(it uses the `.venv` in the parent folder if there is one, otherwise the system Python).
+`gami_logo.ico` can be used as the icon for a desktop shortcut to it.
+
 Upload `plan_ops.json`, pick the machine, click **Generate G-Code**, then download the `.nc` file.
 
 ## Features
