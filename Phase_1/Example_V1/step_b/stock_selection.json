@@ -1,0 +1,86 @@
+{
+  "schema_version": "stock_selection.v3",
+  "input_signature": {
+    "step_sha256": "f395214160f4b009793f478b1994756af1754c3a490592e5d547e73801fa37be",
+    "part_bounds_mm": {
+      "min": [
+        0.0,
+        0.0,
+        -70.0
+      ],
+      "max": [
+        100.0,
+        20.0,
+        0.0
+      ]
+    }
+  },
+  "stock_selection": {
+    "target_material": "Free machining steel",
+    "part_bounds_mm": {
+      "min": [
+        0.0,
+        0.0,
+        -70.0
+      ],
+      "max": [
+        100.0,
+        20.0,
+        0.0
+      ]
+    },
+    "stock_bounds_mm": {
+      "min": [
+        0.0,
+        0.0,
+        -70.0
+      ],
+      "max": [
+        100.0,
+        22.0,
+        0.0
+      ]
+    },
+    "part_bounding_box_mm": [
+      100.0,
+      20.0,
+      70.0
+    ],
+    "machining_allowance_mm": {
+      "+x": 0.0,
+      "-x": 0.0,
+      "+y": 2.0,
+      "-y": 0.0,
+      "+z": 0.0,
+      "-z": 0.0
+    },
+    "blank_dimensions_mm": [
+      100.0,
+      22.0,
+      70.0
+    ],
+    "selection_mode": "automatic",
+    "selected_workpiece": {
+      "source": "database",
+      "material": "Free machining steel",
+      "oriented_dimensions_mm": [
+        100.0,
+        22.0,
+        70.0
+      ],
+      "price": 20.0,
+      "currency": "EURO",
+      "excess_volume_mm3": 0.0,
+      "source_row_id": "wp_002"
+    },
+    "per_face_stock_removal_mm": {
+      "+x": 0.0,
+      "-x": 0.0,
+      "+y": 2.0,
+      "-y": 0.0,
+      "+z": 0.0,
+      "-z": 0.0
+    },
+    "warnings": []
+  }
+}
