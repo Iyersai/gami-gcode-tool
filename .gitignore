@@ -1,3 +1,15 @@
 .venv/
 *.nc
 __pycache__/
+
+# Project data: do not publish without approval
+*.xlsx
+*.zip
+Example_V1/
+plan_ops.json
+production_plan.json
+feature_record.json
+step_b.json
+tool_database.json
+random_test.json
+schema_summary.txt
